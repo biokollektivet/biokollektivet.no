@@ -25,6 +25,11 @@ h3 {
 
 p {
   font-size: var(--base-font-size);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+button {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 body {

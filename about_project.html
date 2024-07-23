@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="UTF-8" />
-    <title>Biokollektivet - Om oss</title>
+    <title>Biokollektivet - Om Biokollektivet</title>
 
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
@@ -16,8 +16,17 @@
       rel="stylesheet"
     />
 
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/cdd8897650.js"
+      crossorigin="anonymous"
+    ></script>
+    
     <!-- Imported CSS -->
     <link rel="stylesheet" href="style.css" />
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
   </head>
 
   <body>
@@ -27,20 +36,19 @@
           <li><a href="index.html">Hjem</a></li>
           <li><a href="news.html">Nyheter</a></li>
           <li class="dropdown">
-            <a class="active" href="about.html" class="dropbtn"
-              >Om oss <i class="arrow down"></i
-            ></a>
+            <button onclick="myFunction()" class="dropbtn active">
+              Om oss <i class="arrow down"></i>
+            </button>
             <div class="dropdown-content">
-              <a href="#">Hva er Biokollektivet?</a>
-              <a href="us.html">Hvem er vi?</a>
+              <a href="about_project.html">Hva er Biokollektivet?</a>
+              <a href="about_us.html">Hvem er vi?</a>
             </div>
           </li>
         </ul>
       </div>
     </header>
 
-    <main>
-    </main>
+    <main></main>
 
     <footer class="split">
       <div class="footer-col">LOGO HER</div>
@@ -70,7 +78,9 @@
           Ta kontakt med oss!
           <br />
           <br />
-          <a href="mailto:kontakt@biokollektivet.no">kontakt@biokollektivet.no</a>
+          <a href="mailto:kontakt@biokollektivet.no"
+            >kontakt@biokollektivet.no</a
+          >
         </p>
       </div>
     </footer>
